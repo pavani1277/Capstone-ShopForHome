@@ -27,7 +27,7 @@ export class EmailComponent implements OnInit {
 
   onSubmit(){
     console.log(this.dataset);
-    this.https.post<Details>('http://localhost:8080/sendMail', this.dataset).subscribe(
+    this.https.post<Details>('http://54.221.101.48:8080/sendMail', this.dataset).subscribe(
         res => {
           this.dataset = res;
           console.log(this.dataset);
