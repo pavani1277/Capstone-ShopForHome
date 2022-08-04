@@ -5,7 +5,7 @@
 export const environment = {
   production: false
 };
-export const apiUrl = '//54.165.196.87:8080';
+export const apiUrl = '//18.232.63.23:8080';
 
 /*
  * For easier debugging in development mode, you can import the following file
