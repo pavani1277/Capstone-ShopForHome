@@ -5,6 +5,7 @@
 export const environment = {
   production: false
 };
+
 export const apiUrl = '//44.201.105.37:8080';
 
 /*
